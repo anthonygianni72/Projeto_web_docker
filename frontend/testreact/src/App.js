@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
 // import logo from './logo.svg';
 // import './App.css';
+import Routes from './routes';
 
 class App extends Component {
 
@@ -87,6 +89,7 @@ class App extends Component {
         <ul>
         <pre>{JSON.stringify(usuario)}</pre>
         </ul>
+        <Routes />
       </div>
     );
   }
